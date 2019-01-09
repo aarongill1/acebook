@@ -12,4 +12,9 @@ public class PostsController {
         return "Hello World!";
     }
 
+    @GetMapping("/posts")
+    public String displayPosts() {
+        return "posts";
+    }
+
 }
