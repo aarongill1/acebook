@@ -15,4 +15,5 @@ Instructions for importing a project into IntelliJ:
 1. Select on Import Project
 2. Select the build.gradle file
 
+To run app type in ./gradlew bootRun 
 
