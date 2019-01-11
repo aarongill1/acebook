@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Feed</title>
+</head>
+<body>
+<tr th:each="post : ${posts}">
+    <td th:text="${post.firstName} + ': '"></td>
+    <td th:text="${post.text}"></td>
+    <br>
+</tr>
+</body>
+
+<a href="/posts">Submit another message</a>
+</html>

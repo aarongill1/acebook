@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Your post has been submitted</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>You have posted:</h1>
+
+<p th:text="'text: ' + ${post.text}" />
+<p th:text="'Username: ' + ${post.userName}" />
+<p th:text="'First Name: ' + ${post.firstName}" />
+<p th:text="'Last Name: ' + ${post.lastName}" />
+
+<a href="/posts">Submit another message</a>
+</body>
+</html>
