@@ -24,9 +24,13 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-devtools")
+<<<<<<< HEAD
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
     //compile files('libs/ojdbc7.jar')
     compile group: 'org.postgresql', name: 'postgresql', version: '42.2.5'
+=======
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.+'
+>>>>>>> d33befeacb369ff33ddc517f8e8c9dfc4c54a05f
     testCompile("org.junit.jupiter:junit-jupiter-api:5.3.2")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:5.3.2")
 }
